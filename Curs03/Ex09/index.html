@@ -18,10 +18,46 @@
 <body>
 
   <form action="/">
-    <label for="message">mesaj*</label>
+    <label for="name">Nume*</label>
+    <input
+      type="text"
+      name="name"
+      placeholder="Nume"
+      id="name"
+      minlength="5"
+      maxlength="30"
+      required
+    ><br><br>
+
+    <label for="surname">Prenume*</label>
+    <input
+      type="text"
+      name="surname"
+      id="surname"
+      placeholder="Prenume"
+      minlength="5"
+      maxlength="30"
+      required
+    ><br><br>
+
+    <label for="details">Detalii</label>
+    <textarea
+      name="details"
+      id="details"
+      placeholder="Detalii"
+      cols="30"
+      rows="8"
+      placeholder="Mesaj"
+      required
+    >
+      tine minte: orice spatiu in int textarea e interpr.
+    </textarea><br><br>
+
+    <label for="message">Mesaj*</label>
     <textarea
       name="message"
       id="message"
+      placeholder="Mesaj"
       cols="30"
       rows="4"
       placeholder="Mesaj"
@@ -29,6 +65,11 @@
     >
       tine minte: orice spatiu in int textarea e interpr.
     </textarea>
+
+    <button
+      type="submit"
+      name="submit"
+    >Submit</button>
   </form>
 
   <div
