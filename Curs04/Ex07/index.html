@@ -88,11 +88,19 @@
       alt="phone"
       title="phone"
     >
+    <a
+      href=""
+      title="Sterge"
+    >Sterge</a>
+    <a
+      href=""
+      title="Editeaza"
+    >Editeaza</a>
   </p>
   <hr>
 
   <h2>Order Now</h2>
-  <p>On our website <i>no account is needed.</i></p>
+  <p>On our website <i>no account is needed</i>.</p>
   <ol>
     <li>First we need some info about yourself. <b>Don’t forget to provide a phone</b>.</li>
     <li>Then we need your <i>real</i> shipping address.</li>
@@ -127,11 +135,175 @@
         name="gender"
         id="na"
         value="na"
+      ><br><br>
+
+      <label for="name">*Name </label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Name"
+        required
+      ><br><br>
+
+      <label for="surname"> *Surname</label>
+      <input
+        type="text"
+        name="surname"
+        id="surname"
+        placeholder="Surname"
+        required
+      ><br><br>
+
+      <label for="email">*Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Email"
+        required
+      ><br><br>
+
+      <label for="phone"> *Phone</label>
+      <input
+        type="tel"
+        name="phone"
+        id="phone"
+        placeholder="Phone"
+        required
+      ><br><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>Address</legend>
+      <label for="address-name">*Name </label>
+      <input
+        type="text"
+        name="address-name"
+        id="address-name"
+        placeholder="Name"
+        required
+      ><br><br>
+
+      <label for="address-surname"> *Surname</label>
+      <input
+        type="text"
+        name="address-surname"
+        id="address-surname"
+        placeholder="Surname"
+        required
+      ><br><br>
+
+      <label for="address-phone"> *Phone</label>
+      <input
+        type="tel"
+        name="address-phone"
+        id="address-phone"
+        placeholder="Phone"
+        required
+      ><br><br>
+
+      <label for="address1">*Address Line 1:</label>
+      <input
+        type="text"
+        name="address1"
+        id="address1"
+        value="address1"
+        id="address1"
+        placeholder="Address Line 1"
+        required
+      ><br><br>
+
+      <label for="address2">Address Line 2:</label>
+      <input
+        type="text"
+        name="address2"
+        id="address2"
+        value="address2"
+        id="address2"
+        placeholder="Address Line 2"
+      ><br><br>
+
+      <label for="city">*City</label>
+      <input
+        type="text"
+        name="city"
+        id="city"
+        value="city"
+        placeholder="City"
+        required
+      ><br><br>
+
+
+      <label for="state">*State:</label>
+      <select
+        id="state"
+        name="state"
+        required
+      >
+        <option value="">--State--</option>
+      </select>
+      <br><br>
+
+      <label for="postcode">*Postcode</label>
+      <input
+        type="text"
+        name="postcode"
+        id="postcode"
+        placeholder="Postcode"
+        required
       >
     </fieldset>
 
+    <fieldset>
+      <legend>Card Information</legend>
+      <label for="card-number">*Card number</label>
+      <input
+        type="text"
+        name="card-number"
+        id="card-number"
+        value="card-number"
+        placeholder="Card Number"
+        required
+      ><br><br>
 
+      <label for="card-name">*Name on the card</label>
+      <input
+        type="text"
+        name="card-name"
+        id="card-name"
+        value="card-name"
+        placeholder="Name on card"
+        required
+      ><br><br>
 
+      <label for="card-expiry-month">*Expiry Month</label>
+      <select
+        name="card-expiry-month"
+        id="card-expiry-month"
+        required
+      >
+        <option value="January">January</option>
+      </select>
+      <label for="card-expiry-year">*Expiry Month</label>
+      <select
+        name="card-expiry-year"
+        id="card-expiry-year"
+        required
+      >
+        <option value="2019">2019</option>
+      </select><br><br>
+
+      <label for="card-cvv">*CVV</label>
+      <input
+        type="text"
+        name="card-cvv"
+        id="card-cvv"
+        value="card-cvv"
+        placeholder="CVV"
+        required
+      >
+    </fieldset>
 
 
     <fieldset>
@@ -141,21 +313,70 @@
         type="checkbox"
         name="terms"
         id="terms"
+        title="terms and conditions"
         required
       >
-      <label for="terms">*You are required to agree to the <a href="">terms and conditions</a></label>
-
+      <label for="terms">*You are required to agree to the <a
+          href=""
+          title="terms and conditions"
+        >terms and conditions</a></label>
       <br><br>
+
+      <input
+        type="checkbox"
+        name="subscribe"
+        id="subscribe"
+      >
+      <label for="subscribe">Can we send you emails?</label>
+      <br><br>
+
+      <input
+        type="checkbox"
+        name="gdpr-consent"
+        id="gdpr-consent"
+        required
+      >
+      <label for="gdpr-consent">Can we send you emails?</label>
+      <br><br>
+
       <button
         type="submit"
         id="submit"
+        name="submit"
       >PLACE ORDER</button>
+      <button
+        type="reset"
+        id="reset"
+        name="reset"
+      >Reset</button>
     </fieldset>
-
   </form>
 
 
-
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+    sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </p>
+  <p>
+    <a
+      href=""
+      title="Home"
+    >Home</a> *
+    <a
+      href=""
+      title="Place Order"
+    ><b>Place Order</b></a> *
+    <a
+      href=""
+      title="Customer Service"
+    >Customer Service</a> *
+    <a
+      href=""
+      title="Contact"
+    >Contact</a>
+  </p>
 
   <div
     class="pixeltab-host"
