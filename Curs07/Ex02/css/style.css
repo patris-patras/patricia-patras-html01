@@ -1,0 +1,35 @@
+a {
+  color: green;
+}
+
+i {
+  color: red;
+}
+
+.line {
+  text-decoration: underline;
+}
+
+.links a {
+  text-decoration: none;
+}
+
+p .line {
+  color: grey;
+}
+
+b {
+  color: purple;
+}
+
+.odd .line {
+  color: blue;
+}
+
+.odd i {
+  text-decoration: underline;
+}
+
+.even b {
+  text-decoration: underline;
+}

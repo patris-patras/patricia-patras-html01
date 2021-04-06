@@ -12,12 +12,18 @@ body {
 
 .box-1 {
   background-color: aquamarine;
+  border-color: green;
+  color: purple;
 }
 
 .box-2 {
   background-color: brown;
+  border: grey;
+  color: white;
 }
 
 .box-3 {
   background-color: bisque;
+  border: blue;
+  color: red;
 }
