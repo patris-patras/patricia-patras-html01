@@ -33,3 +33,12 @@ b {
 .even b {
   text-decoration: underline;
 }
+
+a[href^="http://"]
+{
+  color: red;
+}
+
+a[href*='.com'] {
+  color: black;
+}
