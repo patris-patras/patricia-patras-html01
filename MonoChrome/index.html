@@ -83,45 +83,55 @@
       </div>
       <!-- /.header-contact -->
 
-      <div class="search-bar">
+      <form
+        action="/"
+        class="search-bar"
+      >
         <input
           type="search"
           name="q"
           id="search-bar"
           placeholder="Search..."
         >
-      </div>
+        <button type="submit">
+          <i class="fas fa-search"></i>
+        </button>
+      </form>
       <!-- /.search-bar -->
 
-      <div class="user-controls">
-        <a
-          href="/my-account"
-          title="My account"
-        >
-          <i class="far fa-user"></i>
-        </a>
-      </div>
-      <!-- /.user-controls -->
+      <div class="header-controls">
+        <div class="user-controls">
+          <a
+            href="/my-account"
+            title="My account"
+          >
+            <i class="far fa-user"></i>
+          </a>
+        </div>
+        <!-- /.user-controls -->
 
-      <div class="wishlist">
-        <a
-          href="/wishlist"
-          title="My wishlist"
-        >
-          <i class="far fa-heart"></i>
-        </a>
-      </div>
-      <!-- /.wishlist -->
+        <div class="wishlist">
+          <a
+            href="/wishlist"
+            title="My wishlist"
+          >
+            <i class="far fa-heart"></i>
+          </a>
+        </div>
+        <!-- /.wishlist -->
 
-      <div class="cart-controls">
-        <a
-          href="/cart"
-          title="My cart"
-        >
-          <i class="fas fa-shopping-cart"></i>
-        </a>
+        <div class="cart-controls">
+          <a
+            href="/cart"
+            title="My cart"
+          >
+            <i class="fas fa-shopping-cart"></i>
+          </a>
+        </div>
+        <!-- /.cart-controls -->
       </div>
-      <!-- /.cart-controls -->
+      <!-- /.header-controls -->
+
     </div>
     <!-- /.header-top -->
 
@@ -175,10 +185,11 @@
 
 
   <main class="content-main">
-    <section class="home-catalogue-preview">
+    <section class="home-catalog-preview">
       <!-- new-stuff-section-start -->
-      <hr>
-      <h1>New stuff</h1>
+      <header>
+        <h1>New stuff</h1>
+      </header>
 
       <main class="product-tiles">
         <article class="product-tile">
@@ -192,10 +203,16 @@
                 src="images/Recently Viewed Thumbnail 2.png"
                 alt="MonoChrome"
               >
-              <span class="product-tile-favourite-badge">
-                <i class="far fa-heart"></i>
-              </span>
             </a>
+
+            <a
+              href=""
+              class="product-tile-favorite-badge"
+              title="Wishlist"
+            >
+              <i class="far fa-heart"></i>
+            </a>
+
           </main>
           <!-- /.product-tile-image -->
 
@@ -227,10 +244,16 @@
                 src="images/Recently Viewed Thumbnail 2-1.png"
                 alt="MonoChrome"
               >
-              <span class="product-tile-favourite-badge">
-                <i class="far fa-heart"></i>
-              </span>
             </a>
+
+            <a
+              href=""
+              class="product-tile-favorite-badge"
+              title="Wishlist"
+            >
+              <i class="far fa-heart"></i>
+            </a>
+
           </main>
           <!-- /.product-tile-image -->
 
@@ -262,10 +285,16 @@
                 src="images/Recently Viewed Thumbnail 2-2.png"
                 alt="MonoChrome"
               >
-              <span class="product-tile-favourite-badge">
-                <i class="far fa-heart"></i>
-              </span>
             </a>
+
+            <a
+              href=""
+              class="product-tile-favorite-badge"
+              title="Wishlist"
+            >
+              <i class="far fa-heart"></i>
+            </a>
+
           </main>
           <!-- /.product-tile-image -->
 
@@ -297,10 +326,15 @@
                 src="images/Recently Viewed Thumbnail 2-3.png"
                 alt="MonoChrome"
               >
-              <span class="product-tile-favourite-badge">
-                <i class="far fa-heart"></i>
-              </span>
             </a>
+            <a
+              href=""
+              class="product-tile-favorite-badge"
+              title="Wishlist"
+            >
+              <i class="far fa-heart"></i>
+            </a>
+
           </main>
           <!-- /.product-tile-image -->
 
@@ -323,12 +357,13 @@
       </main>
       <!-- /.product-tiles -->
     </section>
-    <!-- /.home-catalogue-preview -->
+    <!-- /.home-catalog-preview -->
 
-    <section class="home-catalogue-preview">
+    <section class="home-catalog-preview">
       <!-- most-loved-section-start -->
-      <hr>
-      <h1>Most loved</h1>
+      <header>
+        <h1>Most loved</h1>
+      </header>
 
       <main class="product-tiles">
         <article class="product-tile">
@@ -342,10 +377,15 @@
                 src="images/Recently Viewed Thumbnail 2-5.png"
                 alt="MonoChrome"
               >
-              <span class="product-tile-favourite-badge">
-                <i class="far fa-heart"></i>
-              </span>
             </a>
+            <a
+              href=""
+              class="product-tile-favorite-badge"
+              title="Wishlist"
+            >
+              <i class="far fa-heart"></i>
+            </a>
+
           </main>
           <!-- /.product-tile-image -->
 
@@ -377,10 +417,15 @@
                 src="images/Recently Viewed Thumbnail 2-6.png"
                 alt="MonoChrome"
               >
-              <span class="product-tile-favourite-badge">
-                <i class="far fa-heart"></i>
-              </span>
             </a>
+            <a
+              href=""
+              class="product-tile-favorite-badge"
+              title="Wishlist"
+            >
+              <i class="far fa-heart"></i>
+            </a>
+
           </main>
           <!-- /.product-tile-image -->
 
@@ -412,10 +457,15 @@
                 src="images/Recently Viewed Thumbnail 2-7.png"
                 alt="MonoChrome"
               >
-              <span class="product-tile-favourite-badge">
-                <i class="far fa-heart"></i>
-              </span>
             </a>
+            <a
+              href=""
+              class="product-tile-favorite-badge"
+              title="Wishlist"
+            >
+              <i class="far fa-heart"></i>
+            </a>
+
           </main>
           <!-- /.product-tile-image -->
 
@@ -447,10 +497,15 @@
                 src="images/Recently Viewed Thumbnail 2-8.png"
                 alt="MonoChrome"
               >
-              <span class="product-tile-favourite-badge">
-                <i class="far fa-heart"></i>
-              </span>
             </a>
+            <a
+              href=""
+              class="product-tile-favorite-badge"
+              title="Wishlist"
+            >
+              <i class="far fa-heart"></i>
+            </a>
+
           </main>
           <!-- /.product-tile-image -->
 
@@ -473,15 +528,17 @@
       </main>
       <!-- /.product-tiles -->
     </section>
-    <!-- /.home-catalogue-preview -->
+    <!-- /.home-catalog-preview -->
 
     <section class="home-content-about">
-      <p>
-        <img
-          src="images/oliver-pecker-HONJP8DyiSM-unsplash.png"
-          alt="Watches for entrepreneurs"
-        >
-      </p>
+      <aside>
+        <figure>
+          <img
+            src="images/oliver-pecker-HONJP8DyiSM-unsplash.png"
+            alt="Watches for entrepreneurs"
+          >
+        </figure>
+      </aside>
 
       <h1>Watches for entrepreneurs</h1>
 
@@ -497,11 +554,11 @@
     </section>
     <!-- /.home-content-about -->
 
-    <section class="home-catalogue-preview">
+    <section class="home-catalog-preview">
       <!-- men-section-start -->
-      <hr>
-      <h1>Men's</h1>
-
+      <header>
+        <h1>Men's</h1>
+      </header>
       <main class="product-tiles">
         <article class="product-tile">
           <main>
@@ -514,10 +571,15 @@
                 src="images/Recently Viewed Thumbnail 2-9.png"
                 alt="MonoChrome"
               >
-              <span class="product-tile-favourite-badge">
-                <i class="far fa-heart"></i>
-              </span>
             </a>
+            <a
+              href=""
+              class="product-tile-favorite-badge"
+              title="Wishlist"
+            >
+              <i class="far fa-heart"></i>
+            </a>
+
           </main>
           <!-- /.product-tile-image -->
 
@@ -549,10 +611,15 @@
                 src="images/Recently Viewed Thumbnail 2-10.png"
                 alt="MonoChrome"
               >
-              <span class="product-tile-favourite-badge">
-                <i class="far fa-heart"></i>
-              </span>
             </a>
+            <a
+              href=""
+              class="product-tile-favorite-badge"
+              title="Wishlist"
+            >
+              <i class="far fa-heart"></i>
+            </a>
+
           </main>
           <!-- /.product-tile-image -->
 
@@ -584,10 +651,15 @@
                 src="images/Recently Viewed Thumbnail 2-11.png"
                 alt="MonoChrome"
               >
-              <span class="product-tile-favourite-badge">
-                <i class="far fa-heart"></i>
-              </span>
             </a>
+            <a
+              href=""
+              class="product-tile-favorite-badge"
+              title="Wishlist"
+            >
+              <i class="far fa-heart"></i>
+            </a>
+
           </main>
           <!-- /.product-tile-image -->
 
@@ -619,10 +691,15 @@
                 src="images/Recently Viewed Thumbnail 2-12.png"
                 alt="MonoChrome"
               >
-              <span class="product-tile-favourite-badge">
-                <i class="far fa-heart"></i>
-              </span>
             </a>
+            <a
+              href=""
+              class="product-tile-favorite-badge"
+              title="Wishlist"
+            >
+              <i class="far fa-heart"></i>
+            </a>
+
           </main>
           <!-- /.product-tile-image -->
 
@@ -652,12 +729,13 @@
         >view all</a>
       </footer>
     </section>
-    <!-- /.home-catalogue-preview -->
+    <!-- /.home-catalog-preview -->
 
-    <section class="home-catalogue-preview">
+    <section class="home-catalog-preview">
       <!-- women-section-start -->
-      <hr>
-      <h1>Women's</h1>
+      <header>
+        <h1>Women's</h1>
+      </header>
 
       <main class="product-tiles">
         <article class="product-tile">
@@ -671,10 +749,16 @@
                 src="images/Recently Viewed Thumbnail 2-13.png"
                 alt="MonoChrome"
               >
-              <span class="product-tile-favourite-badge">
-                <i class="far fa-heart"></i>
-              </span>
             </a>
+
+            <a
+              href=""
+              class="product-tile-favorite-badge"
+              title="Wishlist"
+            >
+              <i class="far fa-heart"></i>
+            </a>
+
           </main>
           <!-- /.product-tile-image -->
 
@@ -706,10 +790,15 @@
                 src="images/Recently Viewed Thumbnail 2-14.png"
                 alt="MonoChrome"
               >
-              <span class="product-tile-favourite-badge">
-                <i class="far fa-heart"></i>
-              </span>
             </a>
+            <a
+              href=""
+              class="product-tile-favorite-badge"
+              title="Wishlist"
+            >
+              <i class="far fa-heart"></i>
+            </a>
+
           </main>
           <!-- /.product-tile-image -->
 
@@ -741,10 +830,15 @@
                 src="images/Recently Viewed Thumbnail 2-15.png"
                 alt="MonoChrome"
               >
-              <span class="product-tile-favourite-badge">
-                <i class="far fa-heart"></i>
-              </span>
             </a>
+            <a
+              href=""
+              class="product-tile-favorite-badge"
+              title="Wishlist"
+            >
+              <i class="far fa-heart"></i>
+            </a>
+
           </main>
           <!-- /.product-tile-image -->
 
@@ -776,10 +870,15 @@
                 src="images/Recently Viewed Thumbnail 2-2.png"
                 alt="MonoChrome"
               >
-              <span class="product-tile-favourite-badge">
-                <i class="far fa-heart"></i>
-              </span>
             </a>
+            <a
+              href=""
+              class="product-tile-favorite-badge"
+              title="Wishlist"
+            >
+              <i class="far fa-heart"></i>
+            </a>
+
           </main>
           <!-- /.product-tile-image -->
 
@@ -809,7 +908,7 @@
         >view all</a>
       </footer>
     </section>
-    <!-- /.home-catalogue-preview -->
+    <!-- /.home-catalog-preview -->
   </main>
   <!-- /.content-main -->
 
@@ -831,104 +930,109 @@
     </div>
     <!-- /.footer-contact -->
 
-    <nav class="footer-nav-1">
-      <ul>
-        <li>
-          <a
-            href=""
-            title="style & fit advice"
-          >
-            style & fit advice
-          </a>
-        </li>
+    <div class="footer-nav">
+      <nav class="footer-nav-1">
+        <ul>
+          <li>
+            <a
+              href=""
+              title="style & fit advice"
+            >
+              style & fit advice
+            </a>
+          </li>
 
-        <li>
-          <a
-            href=""
-            title="faqs"
-          >
-            faqs
-          </a>
-        </li>
+          <li>
+            <a
+              href=""
+              title="faqs"
+            >
+              faqs
+            </a>
+          </li>
 
-        <li>
-          <a
-            href=""
-            title="delivery"
-          >
-            delivery
-          </a>
-        </li>
+          <li>
+            <a
+              href=""
+              title="delivery"
+            >
+              delivery
+            </a>
+          </li>
 
-        <li>
-          <a
-            href=""
-            title="exchanges & returns"
-          >
-            exchanges & returns
-          </a>
-        </li>
-      </ul>
-    </nav>
-    <!-- /.footer-nav-1 -->
+          <li>
+            <a
+              href=""
+              title="exchanges & returns"
+            >
+              exchanges & returns
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- /.footer-nav-1 -->
 
-    <nav class="footer-nav-2">
-      <ul>
-        <li>
-          <a
-            href=""
-            title="about us"
-          >
-            about us
-          </a>
-        </li>
+      <nav class="footer-nav-2">
+        <ul>
+          <li>
+            <a
+              href=""
+              title="about us"
+            >
+              about us
+            </a>
+          </li>
 
-        <li>
-          <a
-            href=""
-            title="careers"
-          >
-            careers
-          </a>
-        </li>
+          <li>
+            <a
+              href=""
+              title="careers"
+            >
+              careers
+            </a>
+          </li>
 
-        <li>
-          <a
-            href=""
-            title="affiliates"
-          >
-            affiliates
-          </a>
-        </li>
+          <li>
+            <a
+              href=""
+              title="affiliates"
+            >
+              affiliates
+            </a>
+          </li>
 
-        <li>
-          <a
-            href=""
-            title="advertising"
-          >
-            advertising
-          </a>
-        </li>
-      </ul>
-    </nav>
-    <!-- /.footer-nav-2 -->
+          <li>
+            <a
+              href=""
+              title="advertising"
+            >
+              advertising
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- /.footer-nav-2 -->
+    </div>
+    <!-- /.footer-nav -->
 
     <div class="footer-subscription">
       <form action="/">
-        <p>sign up for our newsletter</p>
-        <input
-          type="email"
-          name="email"
-          id="email"
-          placeholder="Email"
-          required
-        > <br> <br>
-        <button
-          type="submit"
-          name="submit"
-          id="submit"
-          title="Submit"
-        >SUBMIT</button>
+        <fieldset>
+          <legend>Sign up for our newsletter</legend>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+            required
+          > <br> <br>
+          <button
+            type="submit"
+            name="submit"
+            id="submit"
+            title="Submit"
+          >SUBMIT</button>
+        </fieldset>
       </form>
     </div>
     <!-- /.footer-subscription -->
