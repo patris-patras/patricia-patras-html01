@@ -1,6 +1,6 @@
 .box {
-  width: 25px; 
-  height: 25px; 
+  width: 25px;
+  height: 25px;
   display: inline-block;
 }
 
@@ -22,4 +22,20 @@
 
 .box-yellow {
   background-color: yellow;
+}
+
+.box-green {
+  transition: transform 5s linear;
+}
+
+.box-green:hover {
+  transform: rotate(360deg) scale(1.5);
+}
+
+.box-purple {
+  transition: width 4s ease 1s;
+}
+
+.box-purple:hover {
+  width: 100px;
 }

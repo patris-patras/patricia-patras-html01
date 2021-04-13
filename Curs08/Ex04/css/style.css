@@ -3,19 +3,49 @@
   padding: 5px;
 }
 
+.body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .nav-top {
   position: absolute;
   top: 0px;
   right: 0px;
   background-color: black;
+  z-index: 1;
 }
 
 .nav-top a {
   color: white;
 }
 
-.legend {
+.container {
+  position: relative;
+}
+
+.container .legend {
   position: absolute;
   background-color: grey;
-  border-color: red;
+  border: 1px solid red;
+  top: -10px;
+  left: 10px;
+}
+
+.container .sub {
+  font-size: 10px;
+  position: relative;
+  bottom: -3px;
+}
+
+.nav-bottom {
+  background-color: green;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.nav-bottom a {
+  color: white;
 }
