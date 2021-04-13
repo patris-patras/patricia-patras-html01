@@ -38,8 +38,37 @@
   padding-bottom: 15px;
 }
 
-/* Creeaza un div cu clasa green cu fundal verde,
-latimea de 500px, inaltimea de 220px, cu bordura neagra de 1px, centrat care sa aibe:
-padding-top, padding-bottom -> 13px;
-padding-left, padding-right -> 19px;
- */
+.green {
+  background-color: green;
+  width: 500px;
+  height: 220px;
+  border: 1px solid black;
+  margin: 0 auto;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 19px;
+  padding-right: 19px;
+}
+
+.turquoise {
+  background-color: turquoise;
+  border: 1px solid blue;
+  border-radius: 15px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.transparent {
+  width: 300px;
+  border: 2px solid red;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
