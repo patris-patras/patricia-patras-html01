@@ -1,1 +1,22 @@
+/* puncte facute 3.7.6 */
 
+ul ~ p {
+  border: 1px dotted black;
+  padding: 20px;
+}
+
+ul > li > ul > li {
+  text-decoration: underline;
+}
+
+h1 + h2 {
+  color: green;
+}
+
+p b {
+  color: purple;
+}
+
+ul i {
+  text-decoration: underline;
+}
