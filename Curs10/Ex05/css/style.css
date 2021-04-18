@@ -13,3 +13,52 @@
 .my-list > li:nth-child(3) {
   background-color: gray;
 }
+
+body h3:nth-of-type(4) {
+  color: green;
+}
+
+/* 1.de ce nu este  h3:nth-child(4) ?????;
+si 2. de ce ii trebuie body ?*/
+
+body h2:nth-of-type(2n + 1) {
+  color: blue;
+  background-color: green;
+}
+
+/* idem , de ce body in primul rand? body h2:nth-of-type(2n+1) si de ce nu h2:nth-of-type(odd)*/
+
+ul.u-line li:first-child {
+  text-decoration: underline;
+}
+
+ul li:last-child {
+  text-decoration: underline;
+}
+
+.last-list li:nth-child(2) a {
+  text-decoration: strikethrough;
+}
+
+/* Pixeltab zice ca nu e bine... dar nu inteleg de ce aici :((( */
+
+li:nth-child(3) {
+  color: purple;
+}
+
+p:nth-of-type(odd) {
+  background-color: brown;
+  padding: 15px;
+}
+
+body > ul > li:nth-of-type(2n + 1) {
+  border: 1px solid black;
+  padding: 8px;
+}
+
+/*
+Coloreaza mov toate cuvintele “Dolor” si doar ele din document, fara a adauga clase in plus (:nth-child)
+Aplica un fundal maro si un padding orizontal de 15px pe paragrafele impare (:nth-of-type)
+Inconjoara cu o bordura neagra de 1px  si un padding de 8px fiecare a 3-a
+lista neordonata de nivel superior din document. (:nth-of-type)
+ */

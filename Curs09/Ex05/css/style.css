@@ -64,3 +64,19 @@
 .box-yellow:hover {
   transform: scale(2);
 }
+
+/* e corect sa ii spui ca o transition are transform in ea?
+tranzitia nu ar trebui sa fie doar modul de tranzitie de la o stare la alta?
+
+adica eu ii zic ce mai exact?
+ia elementul cu .box-yellow si ii faci o tranziti de transform pe 3 sec ease-in-out
+si apoi ii spun ce sa faca in transform-ul ala (scalarea)
+( si doar atunci cand se aplica si strea :hover  )
+
+
+basically transform din transition este ca width de aici:
+.box-red {
+  transition: width 3s linear;
+}
+?
+ */

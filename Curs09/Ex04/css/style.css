@@ -42,6 +42,8 @@
   transform: skew(10deg, 10deg) translate(-5px, -10px);
 }
 
+/* imi zice ca am "valorile corecte pentru proprietatea transform" dar nu reusesc sa imi dau seama ce nu e corect */
+
 .box-yellow {
   transform: scale(1.2) rotate(-15deg);
 }

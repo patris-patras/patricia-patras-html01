@@ -20,3 +20,49 @@ p b {
 ul i {
   text-decoration: underline;
 }
+
+h2 + h3 {
+  text-decoration: underline dotted red;
+  margin: 8px;
+}
+
+ol ~ h3 {
+  border: 1px blue;
+  padding: 5px;
+}
+
+/* Pixeltab zice: Elementele h3 ce urmeaza elementele ol nu au bordura albastra de 1px.
+nu vrea alt tip de blue... sau alta adiacenta
+ */
+
+p i {
+  color: blue;
+}
+
+.u-line i {
+  text-decoration: underline;
+}
+
+h3 + p {
+  margin-top: 0;
+}
+
+ol + h2 {
+  text-decoration: underline;
+}
+
+.random ~ p {
+  padding: 10px 12px;
+}
+
+.last-list ~ ul a {
+  color: yellow;
+}
+
+.my-list > li {
+  text-decoration: underline;
+}
+
+.nested ul > li > ul > li a {
+  padding: 5px;
+}
