@@ -1,0 +1,20 @@
+/* 6+7
+Aplica pe ancorele impare din lista cu clasa .main
+o stare de hover in care acestea sa se faca verzi iar
+linia sa dispara complet
+Aplica pe elementele b din paragafe o stare de
+ hover in care acestea devin rosii si
+ se muta cu 2px in sus atunci cand mouseul se afla
+ oriunde pe paragraf
+*/
+
+.main li:nth-of-type(2n + 1) a:hover {
+  color: green;
+  text-decoration: none;
+}
+
+p:hover b {
+  color: red;
+  position: relative;
+  top: -2px;
+}

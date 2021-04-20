@@ -1,0 +1,22 @@
+/* 5 si 6
+Centreaza elementul cu clasa .para-short, aplicandu-i latime de 321px
+si margini verticale de 10px, si orizontale auto (pentru centrare), adauga-i
+o bordura neagra de 1px si un padding de 15px
+
+Seteaza proprietatea width ca inherit, centreaza
+textul paragrafului  din elementul .para-short si adauga-i o
+bordura rosie de 1px
+ */
+
+.para-short {
+  width: 321px;
+  margin: 10px auto;
+  border: 1px solid black;
+  padding: 15px;
+}
+
+.para-short p {
+  border: 1px solid red;
+  text-align: center;
+  width: inherit;
+}

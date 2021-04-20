@@ -1,0 +1,9 @@
+/*  2 + 3 */
+
+input[type='checkbox']:checked + label {
+  color: green;
+}
+
+input[type='checkbox'] + label {
+  color: lightpink;
+}
