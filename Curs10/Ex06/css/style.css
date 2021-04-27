@@ -13,8 +13,36 @@ Aplica pe elementele b din paragafe o stare de
   text-decoration: none;
 }
 
+p b {
+  position: relative;
+}
+
 p:hover b {
   color: red;
-  position: relative;
   top: -2px;
+}
+
+.main a:hover {
+  text-decoration: none;
+}
+
+.main li:nth-of-type(2n) a:hover {
+  color: red;
+}
+
+h1:hover {
+  text-decoration: underline;
+}
+
+p i {
+  position: relative;
+}
+
+p:hover i {
+  left: 2px;
+  top: -2px;
+}
+
+.secondary a:hover {
+  text-decoration: overline;
 }

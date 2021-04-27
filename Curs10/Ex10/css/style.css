@@ -20,3 +20,19 @@ bordura rosie de 1px
   text-align: center;
   width: inherit;
 }
+
+body {
+  color: green;
+}
+
+body a {
+  color: green;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.list ul {
+  list-style-type: inherit;
+}

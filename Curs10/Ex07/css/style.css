@@ -22,3 +22,29 @@
   margin-left: 5px;
   border-radius: 50%;
 }
+
+.my-second-list a {
+  display: block;
+  margin-left: 3px;
+}
+
+.my-second-list a::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: pink;
+  display: inline-block;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.my-second-list a::after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  margin-left: 5px;
+  background-color: blue;
+  transform: rotate(45deg);
+  display: inline-block;
+}
