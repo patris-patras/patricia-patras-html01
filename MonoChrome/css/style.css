@@ -1,0 +1,623 @@
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('PlayfairDisplay-Black.woff2') format('woff2'),
+    url('PlayfairDisplay-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('PlayfairDisplay-BlackItalic.woff2') format('woff2'),
+    url('PlayfairDisplay-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-BlackItalic.woff2') format('woff2'),
+    url('Roboto-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('PlayfairDisplay-Bold.woff2') format('woff2'),
+    url('PlayfairDisplay-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('PlayfairDisplay-MediumItalic.woff2') format('woff2'),
+    url('PlayfairDisplay-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('PlayfairDisplay-BoldItalic.woff2') format('woff2'),
+    url('PlayfairDisplay-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('PlayfairDisplay-Medium.woff2') format('woff2'),
+    url('PlayfairDisplay-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('PlayfairDisplay-ExtraBoldItalic.woff2') format('woff2'),
+    url('PlayfairDisplay-ExtraBoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('PlayfairDisplay-Italic.woff2') format('woff2'),
+    url('PlayfairDisplay-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('PlayfairDisplay-SemiBold.woff2') format('woff2'),
+    url('PlayfairDisplay-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('PlayfairDisplay-ExtraBold.woff2') format('woff2'),
+    url('PlayfairDisplay-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('PlayfairDisplay-Regular.woff2') format('woff2'),
+    url('PlayfairDisplay-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('PlayfairDisplay-SemiBoldItalic.woff2') format('woff2'),
+    url('PlayfairDisplay-SemiBoldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Black.woff2') format('woff2'),
+    url('Roboto-Black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-BoldItalic.woff2') format('woff2'),
+    url('Roboto-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-LightItalic.woff2') format('woff2'),
+    url('Roboto-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Bold.woff2') format('woff2'),
+    url('Roboto-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Italic.woff2') format('woff2'),
+    url('Roboto-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Medium.woff2') format('woff2'),
+    url('Roboto-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-MediumItalic.woff2') format('woff2'),
+    url('Roboto-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Light.woff2') format('woff2'),
+    url('Roboto-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Regular.woff2') format('woff2'),
+    url('Roboto-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-ThinItalic.woff2') format('woff2'),
+    url('Roboto-ThinItalic.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('Roboto-Thin.woff2') format('woff2'),
+    url('Roboto-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+  box-sizing: border-box;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* reset end */
+body {
+  font-family: Roboto, sans-serif;
+  color: #2b2b2b;
+  font-size: 16px;
+}
+
+body a {
+  color: #2b2b2b;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1356px;
+  margin: 0 auto;
+}
+
+hr {
+  color: #cccccc;
+  /* border: 1px solid #cccccc; */
+  margin-top: 20px;
+  max-width: 1356px;
+}
+
+/* pentru hr
+daca nu aveam acces in html cum o faceam din css?
+si nu cred ca am plasat-o bine; cred ca puteam sa fac lucrurile mai elegant,
+ insa nu am gasit cum */
+
+.header-top {
+  height: 500px;
+  background-size: cover;
+  background: url('../images/banner.png') no-repeat center center;
+}
+
+/* la .header-top
+nu sunt convinsa ca am pus corect imaginea de fundal din header
+daca dai zoom out f mult pe pagina, atunci imaginea ramane la maximul ei...
+nu imi dau seama daca e normal */
+
+.header-top {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header-social,
+.header-contact,
+.header-controls,
+.search-bar {
+  margin-top: 25px;
+}
+
+.header-social li {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.header-social li a {
+  color: #ffffff;
+}
+
+.header-contact a {
+  font-family: 'Playfair Display';
+  font-size: 16px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+/* .header-contact a nu il face Playfair Display!
+in chrome  in consola zice ca e */
+
+.search-bar {
+  color: #ffffff;
+  border-color: #cccccc;
+}
+
+.search-bar button {
+  color: #2b2b2b;
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+
+.header-controls {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header-controls a {
+  margin-left: 15px;
+}
+
+/* toata parte de elemente din .header-top, social icons, search bar, user controls
+nu stiu cum sa le aliniez 2 la stanga si 2 la dreapta
+acum sunt aliniate cu flex justify-content: space-evenly dar nu asa trebuie sa arate */
+
+.nav-primary {
+  text-transform: uppercase;
+  background-color: #2b2b2b;
+  font-family: 'Playfair Display';
+  font-size: 19px;
+}
+
+.nav-primary ul {
+  text-align: center;
+}
+
+.nav-primary li {
+  display: inline-block;
+  margin: 25px 3px;
+}
+
+.nav-primary li a {
+  color: #e8e8e8;
+}
+
+/* la .nav-primary
+nu inteleg cum sa il fac sa le aliniez space evenly
+si nu imi dau seama deloc ce am facut in thread-affair ca sa facem alinierea asta */
+
+.content-main {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.content-main header {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.home-catalog-preview {
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+.home-catalog-preview a {
+  color: #2b2b2b;
+  text-transform: uppercase;
+}
+
+.home-catalog-preview header:first-child {
+  font-family: 'Playfair Display';
+  font-size: 35px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.product-tiles {
+  display: flex;
+  justify-content: center;
+}
+
+.product-tiles .product-title {
+  font-family: 'Playfair Display';
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.product-tiles .product-tile-pricing {
+  font-size: 22px;
+  font-family: 'Playfair Display';
+  margin-top: 15px;
+}
+
+/* .product-tile {
+  position: relative;
+} */
+
+.product-tile-favorite-badge {
+  position: relative;
+  top: -280px;
+  left: 280px;
+}
+
+/* product-tile-favorite-badge
+el a mers si arata bine dar nu cred ca am facut corect tota treaba
+initial as fi vrut sa le fac cu position absolute insa imi scotea tot spatiul dintre .product-tiles asa*/
+
+.home-content-about {
+  display: inline-block;
+}
+
+.home-content-about h1 {
+  font-family: 'Playfair Display';
+  font-size: 44px;
+  font-weight: bold;
+}
+
+.home-content-about p {
+  text-align: left;
+  font-size: 22px;
+  font-weight: 300px;
+}
+
+.home-content-about img {
+  float: left;
+  width: 666px;
+  height: 666px;
+}
+
+/* ok, aici nu ma descurc deloc;
+toata partea de .home-content-about cu imagine, h1 si p nu reusesc sa le asez cum trebuie, ceva imi scapa rau de tot;
+imi poti da o idee de unde sa pornesc?
+sau o bucatica de cod de la un site facut cum trebuie ca sa ma orientez? */
+
+.home-catalog-preview footer {
+  text-align: center;
+  margin: 35px;
+}
+
+.home-catalog-preview footer a {
+  font-size: 22px;
+  border: 1px solid #2b2b2b;
+  padding: 7px;
+}
+
+.footer {
+  background-color: #e8e8e8;
+  min-height: 249px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px 0 0 40px;
+}
+
+/* la footer am cateva probleme/intrebari:
+1. am aliniat cu flex cele 4 coloane din footer - fiecare coloana cu class-ul ei;
+DAR nu stiu cum le faceam daca nu aveam acces la markup si nu aveau clase diferite,
+ cum le faceam sa se aseze fiecare pe coloana ei si distantate space-evenly?
+
+2.apoi  prima coloana footer-contact nu este aliniata sus-jos, cred ca nu ia line-height pe care il setasem,
+si nu situ de ce
+
+ 3. si cum fac sa ii setez fundalul gri pe toata latimea paginii,
+ dar coloanele sa imi ramana aliniate pe .container*/
+
+.footer a {
+  font-family: 'Playfair Display Regular';
+  font-size: 22px;
+}
+
+.footer-contact li {
+  font-family: 'Playfair Display Regular';
+  font-size: 22px;
+}
+
+.footer-contact li:last-child {
+  text-decoration: underline;
+}
+
+.footer-column-4 {
+  font-family: 'Playfair Display Regular';
+  font-size: 22px;
+}
+
+.footer-subscription input {
+  border: 1px solid #cccccc;
+}
+
+.footer-subscription button {
+  border: 1px solid #2b2b2b;
+}
+
+.footer-social {
+  margin-top: 20px;
+}
+
+.footer-social li {
+  display: inline-block;
+}
+
+.footer-contact,
+.footer-nav-1,
+.footer-nav-2 {
+  line-height: 30px;
+}
