@@ -556,13 +556,13 @@ body a {
   justify-content: space-between;
 }
 
-.product-tile {
+/* .product-tile {
   width: 27.386514%;
-}
+} */
 
-.product-tile .product-tile-image img {
+/* .product-tile .product-tile-image img {
   width: 100%;
-}
+} */
 
 .product-tile .product-title a {
   font-size: 24px;
